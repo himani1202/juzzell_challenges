@@ -1,0 +1,2 @@
+A kubernetes (EKS) cluster gets created in AWS using terraform along with VPC and security groups (for worker nodes).
+Once the cluster is created, the helm charts are used to deploy the 3 tier web application over the cluster under a single kubernetes namespace. 
